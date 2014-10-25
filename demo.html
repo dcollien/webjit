@@ -21,7 +21,7 @@
 					<label class="wj-sm">Email:</label><input class="wj-md highlight" type="text" value="foobar"><span class="highlight">Invalid Email</span>
 				</div>
 				<div>
-					<label class="wj-sm">Date of birth:</label><input class="wj-md" type="text">
+					<label class="wj-sm">Date of birth:</label><input class="wj-md" type="text" disabled>
 				</div>
 				<div>
 					<label class="wj-sm">Select a thing:</label>
@@ -34,17 +34,22 @@
 					<label class="wj-sm">Choose a Colour:</label>
 					<label><input type="radio" name="colour" value="blue"><span>Blue</span></label>
 					<label><input type="radio" name="colour" value="red"><span>Red</span></label>
-					<label><input type="radio" name="colour" value="green"><span>Green</span></label>
+					<label><input type="radio" name="colour" value="green" disabled><span>Green</span></label>
 				</div>
 				<div>
 					<label class="wj-sm">Legal Stuff:</label>
 					<label>
 						<input type="checkbox"> <span>I Accept Everything</span>
 					</label>
+					<label>
+						<input type="checkbox" disabled> <span>I Accept Nothing</span>
+					</label>
 				</div>
 				<div>
 					<label class="wj-sm">Do Things:</label>
-					<button type="button">Button!</button>
+					<button type="button" disabled>Disabled</button>
+					<button type="button">Secondary</button>
+					<button type="button" class="default">Primary</button>
 				</div>
 			</fieldset>
 		</form>
