@@ -2,6 +2,9 @@
 
 .webjit {
 	font-family: 'PT Sans', sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
 }
 
 .webjit fieldset {
@@ -20,9 +23,9 @@
 	float:left;
 
 	margin: 0;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 4px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 5px;
 	padding-bottom: 4px;
 
 	font-size: 0.85em;
